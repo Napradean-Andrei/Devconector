@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Andrei Napradean",
   "license": "MIT",
@@ -14,6 +16,7 @@
     "config": "^3.3.2",
     "express": "^4.17.1",
     "express-validation": "^3.0.6",
+    "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.11",

@@ -1,3 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://andrei:andrei@cluster0.wmnw1.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://andrei:andrei@cluster0.wmnw1.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "07fb965d1612fd81251e",
+    "githubSecret": "cd810060308bd0c0a2e0bdb5ec07e539426682dc"
 }
